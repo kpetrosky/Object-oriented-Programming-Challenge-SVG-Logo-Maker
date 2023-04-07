@@ -1,6 +1,18 @@
 {
-  "dependencies": {
-    "inquirer": "^8.2.4",
+  "name": "object-oriented-programming-challenge-svg-logo-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.5"
   }
 }
