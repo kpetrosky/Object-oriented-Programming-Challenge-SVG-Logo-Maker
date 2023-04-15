@@ -1,4 +1,4 @@
-
+//added this so i can save and commit
 // GIVEN a command-line application that accepts user input
 // WHEN I am prompted for text
 // THEN I can enter up to three characters
@@ -49,4 +49,3 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-
