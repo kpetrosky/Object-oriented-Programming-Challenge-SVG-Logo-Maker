@@ -43,10 +43,17 @@ What are the steps required to install your project? Provide a step-by-step desc
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
+![image](https://user-images.githubusercontent.com/122655154/232247873-e47bc7b2-e685-47fc-89a0-4164894eab0b.png)
+![image](https://user-images.githubusercontent.com/122655154/232247895-3e53c868-bf62-4401-8411-485c5d255458.png)
+![image](https://user-images.githubusercontent.com/122655154/232247932-a4785c93-293d-4d1c-9f97-77a4bf940fa4.png)
+![image](https://user-images.githubusercontent.com/122655154/232247944-63fa30a3-8e29-4708-b357-c1b0e4966ee6.png)
+![image](https://user-images.githubusercontent.com/122655154/232247952-9b1484bf-b79c-4ffc-9e13-5cf70529ab64.png)
+![image](https://user-images.githubusercontent.com/122655154/232247961-ef956700-d77b-424f-985e-56cbb0fd6b89.png)
+![image](https://user-images.githubusercontent.com/122655154/232247974-a31eeca3-5458-4029-a55f-e6951e2353f4.png)
+![image](https://user-images.githubusercontent.com/122655154/232247983-52e5891f-47db-450b-b3d9-c88e95b7c488.png)
+![image](https://user-images.githubusercontent.com/122655154/232247997-941896dc-cf7e-4911-8d5a-4b4e951fa119.png)
+![image](https://user-images.githubusercontent.com/122655154/232248001-4e1d8ed5-05d6-46e6-9899-cd2edf5f65dc.png)
+![image](https://user-images.githubusercontent.com/122655154/232248020-09767226-db23-4755-81b9-8d0e58ee43b8.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
