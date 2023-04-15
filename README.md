@@ -1,4 +1,4 @@
-//added this so i can save and commit
+
 // GIVEN a command-line application that accepts user input
 // WHEN I am prompted for text
 // THEN I can enter up to three characters
@@ -36,7 +36,7 @@ I learned how to accurately test the backend.
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 1. npm i jest
-2. npm init -y
+2. npm i inquirer@8.2.4
 3. select options for test(svg.test.js)
 4. npm run test
 
@@ -55,4 +55,5 @@ Provide instructions and examples for use. Include screenshots as needed.
 ![image](https://user-images.githubusercontent.com/122655154/232248001-4e1d8ed5-05d6-46e6-9899-cd2edf5f65dc.png)
 ![image](https://user-images.githubusercontent.com/122655154/232248020-09767226-db23-4755-81b9-8d0e58ee43b8.png)
 
-
+screencastify links:
+https://watch.screencastify.com/v/MWRGsYUj9bcxkxnFwapx
