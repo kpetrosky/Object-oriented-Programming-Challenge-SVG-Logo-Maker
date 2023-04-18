@@ -17,47 +17,6 @@
 // THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 
-function generateReadmeMarkdown(data) {
-    // TODO: Generate markdown content for README file based on user's responses
-    //generate markdown
-    //have to use markdown stringy to use data (readme for chall 9)
-    // using professional readme file
-    return `
-  # ${data.title}
-  
-  ## Description
-  
-  ${data.description}
-  
-  ## Table of Contents
-  
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [License](#license)
-  
-  ## Installation
-  
-  ${data.installation}
-  
-  ## Usage
-  
-  ${data.usage}
-  
-  ## Contributing
-  
-  ${data.contributing}
-  
-  ## Tests
-  
-  ${data.test}
-  
-  ## License
-  
-  This project is licensed under the ${data.license} license.
-  `;
-}
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
