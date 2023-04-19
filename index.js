@@ -52,10 +52,10 @@ function init() {
             },
          
         ])
-        .then((response) => {
-            const markdown = generateReadmeMarkdown(response);
-            writeToFile('README.md', markdown);
-        });
+        // .then((response) => {
+        //     const writeFile = writeFile(response);
+        //     writeToFile('README.md', writeFile);
+        // });
 }
 
 // Function call to initialize app
