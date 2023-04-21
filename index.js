@@ -1,9 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const Circle = require('./lib/circle');
-//one for triangle
-//one for square
-const SVG = require('./lib/svg')
+const Triangle = require('./lib/triangle');
+const Square = require('./lib/square');
+const SVG = require('./lib/svg');
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
@@ -44,8 +44,12 @@ function init() {
             let shape;
             if (answers.shape === 'Circle') {
                 shape = new Circle();
-            } else {
-                console.log('add stuff here'); 
+            } 
+            if (answers.shape === 'Triangle') {
+                shape = new Triangle();
+            } 
+            else {
+                shape = new Square(); 
             }
             shape.setColor(answers.shapeColor);
             let shapeRender = shape.render();
